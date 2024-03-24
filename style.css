@@ -1,8 +1,8 @@
 .container {
     display: flex;
     flex-wrap: wrap;
-    width: 720px;
-    height: 720px;
+    width: 960px;
+    height: 960px;
 }
 
 .grid-item {
@@ -12,3 +12,6 @@
     border: 1px solid grey;
 }
 
+.grid-item:hover {
+    background-color: grey;
+}
